@@ -18,4 +18,4 @@ See [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) for the
 
 | Plugin | Description |
 |--------|-------------|
-| `youtube` | Extract and analyze YouTube video transcripts |
+| `yt-transcript` | Extract and analyze YouTube video transcripts |

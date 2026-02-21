@@ -1,0 +1,24 @@
+{
+  "name": "dbermuehler-claude-code-marketplace",
+  "owner": {
+    "name": "dbermuehler"
+  },
+  "metadata": {
+    "description": "Personal productivity skills, agents, and tools for Claude Code",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "youtube",
+      "source": "./plugins/youtube",
+      "description": "Extract and analyze YouTube video transcripts — fetch captions from any YouTube video and ask questions about the content",
+      "version": "1.0.0",
+      "author": {
+        "name": "dbermuehler"
+      },
+      "keywords": ["youtube", "transcript", "video", "productivity"],
+      "category": "productivity"
+    }
+  ]
+}

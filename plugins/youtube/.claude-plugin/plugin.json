@@ -1,0 +1,9 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "Extract and analyze YouTube video transcripts",
+  "author": {
+    "name": "dbermuehler"
+  },
+  "keywords": ["youtube", "transcript", "video", "productivity"]
+}

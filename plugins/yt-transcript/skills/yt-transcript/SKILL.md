@@ -1,5 +1,5 @@
 ---
-name: youtube
+name: yt-transcript
 description: Extract and analyze YouTube video transcripts
 disable-model-invocation: true
 allowed-tools: Read, Write, Bash
@@ -13,13 +13,13 @@ Extracts transcripts from YouTube videos and answers questions about their conte
 ## Usage
 
 **Extract transcript only:**
-- `/youtube https://youtube.com/watch?v=VIDEO_ID`
-- `/youtube https://youtu.be/VIDEO_ID`
+- `/yt-transcript https://youtube.com/watch?v=VIDEO_ID`
+- `/yt-transcript https://youtu.be/VIDEO_ID`
 
 **Extract and answer question:**
-- `/youtube https://youtube.com/watch?v=VIDEO_ID What are the main topics discussed?`
-- `/youtube Can you summarize this video? https://youtu.be/VIDEO_ID`
-- `/youtube https://youtube.com/watch?v=VIDEO_ID Does the speaker mention anything about AI?`
+- `/yt-transcript https://youtube.com/watch?v=VIDEO_ID What are the main topics discussed?`
+- `/yt-transcript Can you summarize this video? https://youtu.be/VIDEO_ID`
+- `/yt-transcript https://youtube.com/watch?v=VIDEO_ID Does the speaker mention anything about AI?`
 
 After extraction, the user can ask follow-up questions about the video content.
 
@@ -29,7 +29,7 @@ After extraction, the user can ask follow-up questions about the video content.
 
 2. **Locate scripts** - The helper scripts are in the `scripts/` directory next to this SKILL.md file. Use the Glob tool to find the skill directory:
    ```
-   Glob: **/plugins/youtube/skills/youtube/scripts/check_dependencies.sh
+   Glob: **/plugins/yt-transcript/skills/yt-transcript/scripts/check_dependencies.sh
    ```
    This gives you the absolute path prefix for all scripts.
 
@@ -78,10 +78,10 @@ If extraction fails:
 
 ## Example Interactions
 
-**User:** `/youtube https://youtube.com/watch?v=dQw4w9WgXcQ`
+**User:** `/yt-transcript https://youtube.com/watch?v=dQw4w9WgXcQ`
 **Response:** Extract transcript, provide summary, invite questions.
 
-**User:** `/youtube What is this video about? https://youtu.be/dQw4w9WgXcQ`
+**User:** `/yt-transcript What is this video about? https://youtu.be/dQw4w9WgXcQ`
 **Response:** Extract transcript, answer the question with specific details.
 
 **User (follow-up):** `What happens at the 2 minute mark?`

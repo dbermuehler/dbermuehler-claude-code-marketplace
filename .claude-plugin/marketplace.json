@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "youtube",
-      "source": "./plugins/youtube",
+      "name": "yt-transcript",
+      "source": "./plugins/yt-transcript",
       "description": "Extract and analyze YouTube video transcripts — fetch captions from any YouTube video and ask questions about the content",
       "version": "1.0.0",
       "author": {

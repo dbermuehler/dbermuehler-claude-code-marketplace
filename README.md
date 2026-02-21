@@ -1,6 +1,6 @@
 # dbermuehler-claude-code-marketplace
 
-Claude Code Plugin Marketplace for personal productivity skills, agents, and tools.
+Claude Code Plugin Marketplace for with my personal productivity skills, agents, etc.
 
 ## Quick Start
 
@@ -10,7 +10,11 @@ Add this marketplace to Claude Code:
 /plugin marketplace add dbermuehler/dbermuehler-claude-code-marketplace
 ```
 
-Then install individual plugins via `/plugin` — the UI will show all available plugins from this marketplace.
+Once the marketplace is added, install a specific plugin by name:
+
+```
+/plugin install yt-transcript
+```
 
 ## Available Plugins
 

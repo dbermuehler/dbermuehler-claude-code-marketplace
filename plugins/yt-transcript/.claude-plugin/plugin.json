@@ -1,6 +1,6 @@
 {
   "name": "yt-transcript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract and analyze YouTube video transcripts",
   "author": {
     "name": "dbermuehler"

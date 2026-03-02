@@ -27,11 +27,7 @@ After extraction, the user can ask follow-up questions about the video content.
 
 1. **Parse arguments** - Extract the YouTube URL from $ARGUMENTS (it can appear anywhere in the text). The rest of the text is the user's question (if provided).
 
-2. **Locate scripts** - The helper scripts are in the `scripts/` directory next to this SKILL.md file. Use the Glob tool to find the skill directory:
-   ```
-   Glob: **/plugins/yt-transcript/skills/yt-transcript/scripts/check_dependencies.sh
-   ```
-   This gives you the absolute path prefix for all scripts.
+2. **Locate scripts** - The helper scripts are in the `scripts/` subdirectory relative to this SKILL.md file.
 
 3. **Check dependencies** - Verify `curl` and `jq` are available:
    ```bash

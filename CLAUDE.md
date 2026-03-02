@@ -20,15 +20,14 @@ Pure configuration repository — a Claude Code Plugin Marketplace for personal 
 | Output Styles | `styles/*.md` |
 | Manifest | `.claude-plugin/plugin.json` |
 
-## Versioning
-
-- When making changes to a plugin, bump its version in `.claude-plugin/plugin.json` following semver:
-  - **patch** (0.0.x) — bug fixes, typo corrections, minor tweaks
-  - **minor** (0.x.0) — new features, new components, backwards-compatible changes
-  - **major** (x.0.0) — breaking changes, renames, removed functionality
-
 ## Adding a New Plugin
 
 1. Create `plugins/<plugin-name>/` with at least one component (skill, agent, command, etc.)
-2. Optionally add `.claude-plugin/plugin.json` manifest inside the plugin directory
-3. Register the plugin in `.claude-plugin/marketplace.json` under the `plugins` array
+2. Register the plugin in `.claude-plugin/marketplace.json` under the `plugins` array
+
+## Versioning
+
+- When making changes to a plugin, bump its version in `.claude-plugin/marketplace.json` following semver:
+  - **patch** (0.0.x) — bug fixes, typo corrections, minor tweaks
+  - **minor** (0.x.0) — new features, new components, backwards-compatible changes
+  - **major** (x.0.0) — breaking changes, renames, removed functionality

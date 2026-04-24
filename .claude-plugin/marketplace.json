@@ -19,6 +19,17 @@
       },
       "keywords": ["youtube", "transcript", "video", "productivity"],
       "category": "productivity"
+    },
+    {
+      "name": "audio-transcribe",
+      "source": "./plugins/audio-transcribe",
+      "description": "Transcribe audio files and podcast episodes to text using OpenAI's Whisper API",
+      "version": "1.0.0",
+      "author": {
+        "name": "dbermuehler"
+      },
+      "keywords": ["audio", "transcribe", "whisper", "podcast", "speech-to-text"],
+      "category": "productivity"
     }
   ]
 }

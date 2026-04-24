@@ -1,0 +1,9 @@
+{
+  "name": "audio-transcribe",
+  "version": "1.0.0",
+  "description": "Transcribe audio files and podcast episodes using OpenAI's Whisper API",
+  "author": {
+    "name": "dbermuehler"
+  },
+  "keywords": ["audio", "transcribe", "whisper", "podcast", "speech-to-text"]
+}
